@@ -1,19 +1,25 @@
 
 body {
+    background-image: url("https://i.pinimg.com/736x/cc/9b/50/cc9b5052bcede3ef80f4fcc561bd2fd9.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color:navajowhite;
+    /* background :linear-gradient(135deg, #89f7fe, #66a6ff); */
     margin: 0;
     padding: 0;
+    height: 34vw;
 }
 
 .slider-container {
     position: relative;
-    width: 80%;
+    width: 90%;
+    height: 50%;
     max-width: 800px;
     margin: 200px auto;
     overflow: hidden;
-    /* background-color: black; */
+    background-color: rgb(136, 136, 136);
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(193, 183, 183, 0.2);
 }
@@ -26,15 +32,16 @@ body {
 
 .slider img {
     width: 100%;
-    height: auto;
+    height: 260px;
     border-radius: 10px;
+    /* background-color: aqua; */
 }
 
 .nav-btn {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(148, 165, 112);
     color: white;
     border: none;
     padding: 10px;
